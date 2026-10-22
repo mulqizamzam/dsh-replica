@@ -1,0 +1,1 @@
+DSH Replica is a port of https://github.com/Jakeschincariol/replica-skill, used under its MIT License. Copyright (c) 2026 Jake Schincariol. This repository preserves the original MIT license notice; modifications adapt the workflows for DeepSeek Harness. See LICENSE for full terms. The port is not affiliated with or endorsed by DeepSeek.
