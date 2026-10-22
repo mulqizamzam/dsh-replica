@@ -2,8 +2,6 @@
 
 A native DeepSeek Harness bundle preserving 11 product-engineering workflows from the MIT-licensed [Replica skill pack](https://github.com/Jakeschincariol/replica-skill).
 
-**Status:** Ported source archive and local checks are available; this GitHub repository is being bootstrapped and does not yet contain the complete source tree. Do not install from GitHub until the full tree is pushed.
-
 ## Workflows
 
 - `replica-recon`: map screens, flows, data model and features
@@ -20,19 +18,15 @@ A native DeepSeek Harness bundle preserving 11 product-engineering workflows fro
 
 The package includes six standard-library Python utilities, reusable templates, an embedded DSH Skill provider, structural validation, CI, and tests.
 
-## Port archive
-
-Download the [full source ZIP from this ChatGPT response] if the repository is still incomplete. The archive should be uploaded/extracted into this repository before using the DSH installer.
-
 ## Clean-room and safety boundaries
 
 Rebuild functionality and UX patterns; do not copy proprietary source, logos, text, licensed assets, catalogues, private APIs, or owned customer networks. Use permitted public information and the user's own account only. Never invent review claims or quotations. Keep reference screenshots out of shipped products. Never store credentials in the repo. Production deployment must stop for any failed preflight and requires explicit user approval.
 
 The Skills do not grant extra file, shell, browser, network, Python, credential or deployment permissions. Use only capabilities available in the installed Harness and respect its confirmation policies.
 
-## Install after full publication
+## Install
 
-Use the plugin/bundle command documented for your installed DSH version, for example:
+Install the bundle according to the plugin/bundle workflow documented by your installed DSH version. For versions supporting the GitHub source format, the command is:
 
 ```bash
 dsh plugin --profile web add "github:mulqizamzam/dsh-replica#main"
