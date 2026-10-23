@@ -2,6 +2,8 @@
 
 A native DeepSeek Harness bundle preserving 11 product-engineering workflows from the MIT-licensed [Replica skill pack](https://github.com/Jakeschincariol/replica-skill).
 
+**Baru di DSH?** Baca [Panduan Pemula (Bahasa Indonesia)](README_PEMULA.md) untuk memahami proyek, alur kerja, persyaratan, pemeriksaan, dan batasan keamanan.
+
 ## Workflows
 
 - `replica-recon`: map screens, flows, data model and features
